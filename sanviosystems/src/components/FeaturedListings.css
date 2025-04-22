@@ -1,0 +1,68 @@
+.featured-listings {
+    padding: 20px;
+  }
+  
+  .listings-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .listing-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .listing-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .listing-info {
+    padding: 15px;
+  }
+  
+  .badges {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .badge-new {
+    background: blue;
+    color: white;
+  }
+  
+  .badge-verified {
+    background: green;
+    color: white;
+  }
+  
+  .listing-type {
+    font-weight: bold;
+    color: gray;
+  }
+  
+  .listing-title {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .listing-location {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .listing-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+  }
+  
